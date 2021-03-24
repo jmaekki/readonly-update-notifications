@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Readonly Update Notifications\n"
+"POT-Creation-Date: 2021-03-24 11:30+0200\n"
+"PO-Revision-Date: 2021-03-24 11:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: templates/readonly-updates.php:15 templates/readonly-updates.php:31
+msgid "Updates"
+msgstr "Päivitykset"
+
+#: templates/readonly-updates.php:16
+msgid "Your plugins are all up to date."
+msgstr "Kaikki lisäosat ovat ajantasalla."
+
+#: templates/readonly-updates.php:32
+msgid ""
+"The following plugins have new versions available. To update please contact "
+"site administrator."
+msgstr ""
+"Seuraavilla lisäosilla on uusia versioita. Päivitä ottamalla yhteyttä "
+"sivuston järjestelmänvalvojaan."
+
+#: templates/readonly-updates.php:37
+msgid "Plugins"
+msgstr "Lisäosat"
+
+#. translators: 1: WordPress version
+#: templates/readonly-updates.php:56 templates/readonly-updates.php:73
+#, php-format
+msgid "Compatibility with WordPress %1$s: 100%% (according to its author)"
+msgstr ""
+"Yhteensopivuus WordPress %1$s kanssa: 100%% (lisäosan kehittäjän mukaan)"
+
+#. translators: 1: WordPress version, 2: Compatibility percentage, 3: Compatibility votes count, 4: Compatibility votes count total
+#: templates/readonly-updates.php:61 templates/readonly-updates.php:78
+#, php-format
+msgid ""
+"Compatibility with WordPress %1$s: %2$d%% (%3$d \"works\" votes out of %4$d "
+"total)"
+msgstr ""
+"Yhteensopivuus WordPress %1$s kanssa: %2$d%% (%3$d “toimii” ääntä %4$d "
+"äänestä)"
+
+#. translators: 1: WordPress version
+#: templates/readonly-updates.php:65 templates/readonly-updates.php:82
+#, php-format
+msgid "Compatibility with WordPress %1$s: Unknown"
+msgstr "Yhteensopivuus WordPress %1$s kanssa: Tuntematon"
+
+#. translators: 1: plugin version, 2: new version
+#: templates/readonly-updates.php:99
+#, php-format
+msgid "You have version %1$s installed. Update to %2$s."
+msgstr "Sinulla on versio %1$s asennettuna. Päivitä versioon %2$s."
+
+#. Plugin Name of the plugin/theme
+msgid "Readonly Update Notifications"
+msgstr "Vain luku -päivitysilmoitukset"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/isomjyri/readonly-update-notifications"
+msgstr "https://github.com/isomjyri/readonly-update-notifications"
+
+#. Description of the plugin/theme
+msgid ""
+"Show core and plugin updates on a custom updates page, which doesn't allow "
+"updating."
+msgstr ""
+"Näytä WordPressin ja sen lisäosien päivitykset mukautetulla päivityssivulla, "
+"joka ei salli päivittämistä."
+
+#. Author of the plugin/theme
+msgid "Jyri Isomäki"
+msgstr "Jyri Isomäki"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/isomjyri"
+msgstr "https://github.com/isomjyri"
