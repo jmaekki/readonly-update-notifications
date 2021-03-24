@@ -1,14 +1,14 @@
 <?php
 /**
  * Plugin Name: Readonly Update Notifications
- * Description: Show core and plugin updates on a custom updates page, which doesn't allow updating.
+ * Description: Show WordPress core and plugin updates on a custom updates page, which doesn't allow updating.
  * Version: 1.0.0
  * Plugin URI: https://github.com/jmaekki/readonly-update-notifications
  * Author: Jyri Isomäki
  * Author URI: https://github.com/jmaekki
  * Text Domain: readonly-update-notifications
  * Domain Path: /languages
- * License: GPLv2
+ * License: GPL-3.0
  */
 
 namespace JMaekki;
@@ -68,7 +68,7 @@ class ReadonlyUpdateNotifications {
      *
      * @return void
      */
-    public static function update_notifications_menu() {
+    public static function update_notifications_menu() : void {
         $count = static::get_updates_count();
 
         $notification = '';
@@ -85,7 +85,7 @@ class ReadonlyUpdateNotifications {
      *
      * @return void
      */
-    public static function render_updates_page() {
+    public static function render_updates_page() : void {
         require_once 'templates/readonly-updates.php';
     }
 }

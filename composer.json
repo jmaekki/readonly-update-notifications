@@ -1,0 +1,17 @@
+{
+    "name": "jmaekki/readonly-update-notifications",
+    "description": "Show WordPress core and plugin updates on a custom updates page, which doesn't allow updating.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Jyri Isomäki",
+            "email": "isomjyri@gmail.com",
+            "homepage": "https://github.com/JMaekki/readonly-update-notifications",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "=>7.0"
+    }
+}
