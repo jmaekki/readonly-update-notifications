@@ -1,7 +1,7 @@
 {
     "name": "jmaekki/readonly-update-notifications",
     "description": "Show WordPress core and plugin updates on a custom updates page, which doesn't allow updating.",
-    "type": "wordpress-plugin",
+    "type": "wordpress-muplugin",
     "license": "GPL-3.0-or-later",
     "authors": [
         {
